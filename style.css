@@ -36,3 +36,7 @@ header {
     font-weight: bold;
     color: #f9faf8;
 }
+
+.header-link {
+    margin-left: 16px;
+}
