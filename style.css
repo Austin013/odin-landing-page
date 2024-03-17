@@ -16,11 +16,18 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
+
 header {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
     padding: 16px 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
 }
 
 .container {
@@ -33,7 +40,7 @@ header {
     gap: 40px;
 }
 
-.logo {
+.logo, .quotee {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
@@ -41,12 +48,6 @@ header {
 
 .header-link {
     margin-left: 16px;
-}
-
-section {
-    display: flex;
-    justify-content: center;
-    padding: 80px 0;
 }
 
 .top {
@@ -90,10 +91,11 @@ img {
     flex-direction: column;
     flex: auto;
     justify-content: flex-start;
-    align-items: center;
+    align-items: stretch;
 }
 
 .information h2 {
+    text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
@@ -118,7 +120,23 @@ img {
 }
 
 .information-item p {
-    margin-top: 12px;
+    margin: 12px 0 0 0;
     color: #1f2937;
     text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+i {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.quotee {
+    margin-top: 8px;
+    color: #1f2937;
+    text-align: right;
 }
