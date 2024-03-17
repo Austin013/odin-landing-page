@@ -81,3 +81,11 @@ img {
     width: 100%;
 }
 
+.middle-container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: flex-start;
+    align-items: center;
+}
