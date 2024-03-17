@@ -30,6 +30,7 @@ header {
     flex: 1;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 40px;
 }
 
 .logo {
@@ -79,3 +80,4 @@ h1 {
 img {
     width: 100%;
 }
+
