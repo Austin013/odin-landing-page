@@ -20,6 +20,7 @@ header {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
+    padding: 16px 0;
 }
 
 .container {
@@ -28,7 +29,7 @@ header {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .logo {
@@ -39,4 +40,42 @@ header {
 
 .header-link {
     margin-left: 16px;
+}
+
+.top {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.top-left, .top-right {
+    width: 50%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.top-left p {
+    margin: 16px 0;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    padding: 8px 40px;
+    border: solid lpx #3882f6;
+    border-radius: 6px;
+}
+
+img {
+    width: 100%;
 }
