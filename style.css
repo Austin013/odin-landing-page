@@ -140,3 +140,25 @@ i {
     color: #1f2937;
     text-align: right;
 }
+
+.cta-time .middle-container {
+    background-color: #3882f6;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    border-radius: 12px;
+}
+
+.cta-time .sign-up {
+    border: solid 1px #e5e7eb
+}
+
+h3 {
+    color: #f9faf8;
+    margin: 0;
+}
+
+.cta-description p {
+    margin: 8px 0 0 0;
+}
